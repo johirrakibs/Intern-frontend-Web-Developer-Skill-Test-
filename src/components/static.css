@@ -1,0 +1,113 @@
+.static-main-div {
+ 
+    width: 72%;
+    height: 274px;
+    background: linear-gradient(87.05deg, #6462F0 0%, #9190E9 95.5%);
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+
+.static-sub-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    height: 100%;
+}
+
+.line-div {
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.image-div {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #9e9ef7;
+    /* background-color: #8280f4; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgggee {
+    width: 38px !important;
+    height: 40px !important;
+
+}
+
+.text-div {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.text-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.learn-tag {
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.5;
+
+    cursor: pointer;
+}
+
+.learn-div{
+        margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap:18px;
+}
+
+.learn-tagg-span{
+    font-size: 16px !important;
+    margin-top: 5px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+@media (min-width:300px) and (max-width:767px){
+
+    .static-main-div {
+      
+        width: 92%;
+        height: auto;
+        background: linear-gradient(87.05deg, #6462F0 0%, #9190E9 95.5%);
+        border-radius: 30px;
+        margin: 0 auto;
+        padding: 35px 13px;
+    }
+    .static-sub-div {
+            display: grid;
+        grid-template-columns: 1fr;
+        place-items: baseline;
+        padding: 34px 32px;
+        gap: 92px;
+   
+}
+
+.image-div{
+    order: 1;
+}
+
+}
