@@ -30,7 +30,7 @@ const Hero = () => {
 
 
           <div >
-            <h1 className='leading-6 text-base font-normal not-italic mb-2 ml-2'>brand:</h1>
+            <h1 className='leading-6 text-base font-normal not-italic mb-2 ml-2'>Brand:</h1>
             <div className='flex items-center justify-between ml-2 mr-2'>
               <Image
                 src={"/brand1.png"} width={58.81} height={21}
